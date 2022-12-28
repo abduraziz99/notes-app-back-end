@@ -8,7 +8,7 @@ const addNoteHandler = (request, h) => {
   const updateAt = createdAt;
 
   const newNote = {
-    title, tags, body, createdAt, updateAt,
+    title, tags, body, id, createdAt, updateAt,
   };
 
   notes.push(newNote);
